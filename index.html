@@ -2,10 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xinkang Labs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    header {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+      max-width: 500px;
+    }
+    .button {
+      margin-top: 2rem;
+      background-color: #4f46e5;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #4338ca;
+    }
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello from Xinkang Labs</h1>
-  <p>This is a basic GitHub Pages site.</p>
+  <header>Hello from <span style="color:#4f46e5">Xinkang Labs</span></header>
+  <p>We build modern tools and technologies to shape the future. Explore our work, projects, and open-source contributions.</p>
+  <button class="button" onclick="location.href='https://github.com/kenchoiwind'">Visit GitHub</button>
+  <footer>
+    &copy; 2026 Xinkang Labs. All rights reserved.
+  </footer>
 </body>
 </html>
+
