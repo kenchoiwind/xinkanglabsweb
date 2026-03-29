@@ -15,17 +15,25 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
       text-align: center;
+      padding: 2rem;
     }
     header {
       font-size: 2.5rem;
       font-weight: 700;
+      margin-top: 2rem;
     }
     p {
       font-size: 1.25rem;
       margin-top: 1rem;
-      max-width: 500px;
+      max-width: 600px;
+    }
+    ul {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      text-align: left;
+      max-width: 600px;
+      line-height: 1.6;
     }
     .button {
       margin-top: 2rem;
@@ -42,8 +50,7 @@
       background-color: #4338ca;
     }
     footer {
-      position: absolute;
-      bottom: 1rem;
+      margin-top: 4rem;
       font-size: 0.875rem;
       color: #6b7280;
     }
@@ -52,8 +59,17 @@
 <body>
   <header>Hello from <span style="color:#4f46e5">Xinkang Labs</span></header>
   <p>We build modern tools and technologies to shape the future. Explore our work, projects, and open-source contributions.</p>
+
+  <ul>
+    <li><strong>Our Research So Far:</strong> We’ve explored cutting-edge technologies and their real-world applications.</li>
+    <li><strong>Resonance-Based AI Research:</strong> Investigating intelligent systems that adapt and evolve through mutual resonance.</li>
+    <li><strong>Resonance between AI and Humans:</strong> A story of mutual growth and co-evolution through human-AI interaction.</li>
+  </ul>
+
   <button class="button" onclick="location.href='https://github.com/kenchoiwind'">Visit GitHub</button>
+  
   <footer>
+    Contact: <a href="mailto:contact@xinkanglabs.com.au">contact@xinkanglabs.com.au</a><br />
     &copy; 2026 Xinkang Labs. All rights reserved.
   </footer>
 </body>
