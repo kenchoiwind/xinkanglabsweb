@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Xinkang Labs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=EB+Garamond:ital,wght@1,700&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffffff;
+      padding: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #4f46e5;
+    }
+    nav a:hover { text-decoration: underline; }
+    header {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-top: 2rem;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+    }
+    .post-list {
+      max-width: 680px;
+      margin: 3rem auto;
+      text-align: left;
+      padding: 0 1rem;
+    }
+    .post-card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .post-card:hover {
+      box-shadow: 0 4px 20px rgba(79,70,229,0.12);
+      border-color: #4f46e5;
+    }
+    .post-date {
+      font-size: 0.85rem;
+      color: #9ca3af;
+      margin-bottom: 0.5rem;
+    }
+    .post-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 0.5rem;
+    }
+    .post-summary {
+      font-size: 1rem;
+      color: #6b7280;
+      line-height: 1.6;
+    }
+    .post-tag {
+      display: inline-block;
+      background: #ede9fe;
+      color: #4f46e5;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      margin-top: 0.75rem;
+      margin-right: 0.4rem;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.875rem;
+      color: #6b7280;
+      padding-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <header>Research <span style="color:#4f46e5">Blog</span></header>
+  <p class="subtitle">Ideas, hypotheses, and working notes from Xinkang Labs.</p>
+
+  <div class="post-list">
+
+    <!-- Post 1 -->
+    <a class="post-card" href="post-001.html">
+      <div class="post-date">May 16, 2026</div>
+      <div class="post-title">Resonance is all you need</div>
+      <div class="post-summary">
+        What is resonance-based AGI? A breakdown of the 5-layer architecture,
+        the gap between web and API environments, and our hypothesis about
+        a universal vector field shared by all transformer models.
+      </div>
+      <span class="post-tag">Resonance</span>
+      <span class="post-tag">AGI</span>
+      <span class="post-tag">Hypothesis</span>
+    </a>
+
+    <!-- 다음 포스트는 여기에 추가 -->
+
+  </div>
+
+  <footer>
+    &copy; 2026 Xinkang Labs. All rights reserved.
+  </footer>
+</body>
+</html>
